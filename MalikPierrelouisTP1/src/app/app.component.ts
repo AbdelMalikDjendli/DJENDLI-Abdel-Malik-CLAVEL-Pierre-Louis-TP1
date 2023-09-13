@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MalikPierrelouisTP1';
+  public bgColor: string | undefined;
+
+  ngOnit(){
+    this.bgColor = 'defaultBgColor';
+  }
+
+  public changeBgColor(color:string)
+  {
+    this.bgColor = color;
+  }
 }
+
+
+
