@@ -2,10 +2,6 @@
   background-color: cyan;
 }
 
-div{
-
-}
-
 .red{
   background-color: red;
   height: 100%;
@@ -31,5 +27,7 @@ div{
 }
 
 .bodyColor{
-  display: grid;
+  position: fixed;
+  left: 0;
+  width: 100%;
 }
